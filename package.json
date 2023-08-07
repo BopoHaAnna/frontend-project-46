@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "gen-diff": "bin/gendiff.js"
+    "gendiff": "bin/gendiff.js"
   },
   "dependencies": {
-    "commander": "^11.0.0"
+    "commander": "^11.0.0",
+    "lodash": "^4.17.21"
   }
 }
